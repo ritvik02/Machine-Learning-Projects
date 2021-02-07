@@ -11,7 +11,6 @@ The dataset we are dealing with here is a relatively small dataset and good for 
 
 
 ## Process
--	Carried out this project to check the initial skepticism regarding the use of neural networks on tabular data.
 -	Performed exploratory data analysis and preprocessing before applying ML and DL models.
 -	initialized a Random Forest classifier, trained it, tune some hyper-parameters, to make predictions. Observed an accuracy of 86%.
 -	Achieved an accuracy of 85% using Deep Learning. 
