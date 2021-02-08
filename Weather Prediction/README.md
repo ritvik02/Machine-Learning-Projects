@@ -1,4 +1,4 @@
-# Trained a model to predict weather. Dataset consists of a century of historical averages of global temperatures, including global maximum temperatures, global minimum temperatures, and global land and ocean temperatures. 
+Trained a model to predict weather. Dataset consists of a century of historical averages of global temperatures, including global maximum temperatures, global minimum temperatures, and global land and ocean temperatures. 
 
 
 ## Data Preparation
