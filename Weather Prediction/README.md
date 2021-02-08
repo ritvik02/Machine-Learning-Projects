@@ -12,7 +12,7 @@ High cardinality refers to columns whose values are very rare or unique. Given t
 
 - Visualised data to find correlations between the data.
 
--Separated the data into features and targets. The target, also called Y, is the value we want to predict, in this case, the actual average land and ocean temperature and features are all the columns the model uses to make a prediction.
+- Separated the data into features and targets. The target, also called Y, is the value we want to predict, in this case, the actual average land and ocean temperature and features are all the columns the model uses to make a prediction.
 
 - Using sckiit-learn split the data into train and test, trained a Random Forest algorithm which is capable of performing both the tasks of classification as well as regression.
 
