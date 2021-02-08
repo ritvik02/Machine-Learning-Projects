@@ -10,3 +10,7 @@ Early on there was a lot of skepticism regarding the use of neural networks for 
 [Deep learning approach](https://github.com/ritvik02/Machine-Learning-Projects/blob/main/Machine%20Learning%20vs%20Deep%20Learning%20on%20Tabular%20Data/dl-on-tabular-data-using-fastai.ipynb)
 
 ![Sample image](https://github.com/ritvik02/Machine-Learning-Projects/blob/main/Machine%20Learning%20vs%20Deep%20Learning%20on%20Tabular%20Data/image_11.png)
+
+
+
+## [Weather Prediction using ML](https://github.com/ritvik02/Machine-Learning-Projects/tree/main/Weather%20Prediction)
