@@ -1,4 +1,5 @@
 # Machine-Learning-Projects
+Click on the project title for detailed explanation or code.
 
 ## [Machine Learning vs Deep Learning on Tabular Data](https://github.com/ritvik02/Machine-Learning-Projects/tree/main/Machine%20Learning%20vs%20Deep%20Learning%20on%20Tabular%20Data)
 Early on there was a lot of skepticism regarding the use of neural networks for tabular data. This short experiment compares the 2 approaches and finds out if deep learning models can match the performance of machine learning models in case of tabular data. Results below:
@@ -17,3 +18,4 @@ Early on there was a lot of skepticism regarding the use of neural networks for 
 
 
 ## [Weather Prediction using ML](https://github.com/ritvik02/Machine-Learning-Projects/tree/main/Weather%20Prediction)
+Click on the project title for detailed explanation or code.
