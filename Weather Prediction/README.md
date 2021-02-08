@@ -1,20 +1,22 @@
-# [Image classifier using custom dataset](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/custom_dataset_classifier.ipynb)
+# Trained a model to predict weather. Dataset consists of a century of historical averages of global temperatures, including global maximum temperatures, global minimum temperatures, and global land and ocean temperatures. 
 
-Creating an image classifier is cool, but creating one with your own dataset is cooler! With this project you can create 
-your own classifier by downloading data from [google images](https://images.google.com/?gws_rd=ssl) or training a model 
-using images from your own gallery. I have made a peppa pig classifier for my niece using a pretrained model.
 
-[Learn more about how pretrained models work.](https://becominghuman.ai/how-do-pretrained-models-work-11fe2f64eaa2)
+## Data Preparation
+- made a copy of the dataframe so as not to corrupt the original. After that, we are going to remove the columns that have high cardinality.
+High cardinality refers to columns whose values are very rare or unique. Given the frequency of high cardinality data in most time-series datasets, solved this problem directly by completely removing these high cardinality columns from our dataset so as not to confuse our model in the future. 
 
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_1.png)
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_2.png)
+- Converted columns into DateTime object.
 
-# [Stochastic Gradient Descent](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/sgd.ipynb)
 
-In this notebook we experiment with optimization of deep learning algorithms and the effects of extremely high or 
-extremely low learning rates. [Article](https://medium.com/@dipam44/learning-rate-and-golf-87c8d4697e31) related to this notebook.
+## Visualization and training
 
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_3.png)
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_4.png)
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_5.png)
-![Sample image](https://github.com/dipam7/fastai/blob/master/deep_learning/course1/lesson2/images/image_6.png).
+- Visualised data to find correlations between the data.
+
+-Separated the data into features and targets. The target, also called Y, is the value we want to predict, in this case, the actual average land and ocean temperature and features are all the columns the model uses to make a prediction.
+
+- Using sckiit-learn split the data into train and test, trained a Random Forest algorithm which is capable of performing both the tasks of classification as well as regression.
+
+
+## Result
+Model learnt to predict weather conditions with an accuracy of 98.02%.
+
