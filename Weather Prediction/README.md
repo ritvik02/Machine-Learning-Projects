@@ -2,7 +2,7 @@ Trained a model to predict weather. Dataset consists of a century of historical 
 
 
 ## Data Preparation
-- made a copy of the dataframe so as not to corrupt the original. After that, we are going to remove the columns that have high cardinality.
+- made a copy of the dataframe so as not to corrupt the original. After that,removed the columns that have high cardinality.
 High cardinality refers to columns whose values are very rare or unique. Given the frequency of high cardinality data in most time-series datasets, solved this problem directly by completely removing these high cardinality columns from our dataset so as not to confuse our model in the future. 
 
 - Converted columns into DateTime object.
